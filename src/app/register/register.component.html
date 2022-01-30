@@ -1,4 +1,95 @@
 <body>
-    <p>register works!</p>
+    
+    <div class="container">
+      <div class="title">REGISTER HERE!</div><br>
+      <form action="#">
+        <div class="user-details">
+        <div class="input-box">
+          <label class="details">Full Name</label>
+          <input type="text" formControlName="name" class="form-control" required>
+        </div>
+        
+        <div class="input-box">
+          <label class="details">User Name</label>
+          <input type="text" formControlName="username" class="form-control" required>
+        </div>
 
+        <div class="input-box">
+          <label class="details">E-mail</label>
+          <input type="email" formControlName="email" class="form-control" required>
+        </div>
+        
+        <div class="input-box">
+          <label class="details">Password</label>
+          <input type="password" formControlName="password" class="form-control" required>
+        </div>
+        
+        <div class="input-box">
+          <label class="details">Confirm Password</label>
+          <input type="password" formControlName="cpassword" class="form-control" required>
+        </div>
+
+        <div class="input-box">
+          <label class="details">Contact Number</label>
+          <input type="number" formControlName="number" class="form-control" required>
+        </div>
+
+        <div class="input-box">
+          <label class="details">Housenumber</label>
+          <input type="number" formControlName="housenumber" class="form-control" required>
+        </div>
+
+        <div class="input-box">
+          <label class="details">Street</label>
+          <input type="text" formControlName="street" class="form-control" required>
+        </div>
+
+        <div class="input-box">
+          <label class="details">Area</label>
+          <input type="text" formControlName="area" class="form-control" required>
+        </div>
+
+        <div class="input-box">
+          <label class="details">City</label>
+          <input type="text" formControlName="city" class="form-control" required>
+        </div>
+
+        <div class="input-box">
+          <label class="details">State</label>
+          <input type="text" formControlName="state" class="form-control" required>
+        </div>
+
+        <div class="input-box">
+          <label class="details">country</label>
+          <input type="text" formControlName="country" class="form-control" required>
+        </div>
+        </div>
+
+        <div class="gender-details">
+            <span class="gender-title">Gender </span>         
+            <div class="category">
+              <label for="">
+                <span class="dot"></span>
+                <span class="gender">Male</span>
+              </label>
+
+              <label for="">
+                <span class="dot"></span>
+                <span class="gender">Female</span>
+              </label>      
+          </div>
+        </div>
+        
+        <div class="mat-button">
+          <input type="submit" value="register">
+          <input type="submit" cancel="cancel">
+        </div>
+
+        <div class="form-group">
+          <p>Already have an account? <a routerLink="/login">Sign in</a>.</p>
+          </div>
+
+      </form>
+      </div>
+    
 </body>

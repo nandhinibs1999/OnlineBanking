@@ -22,6 +22,10 @@ import { TransactionsComponent } from './transactions/transactions.component';
 import { DepositComponent } from './deposit/deposit.component';
 import { FundTransferComponent } from './fund-transfer/fund-transfer.component';
 import { TransactionRecordsComponent } from './transaction-records/transaction-records.component';
+import { AddbeneficiaryComponent } from './addbeneficiary/addbeneficiary.component';
+import { ViewallbeneficiaryComponent } from './viewallbeneficiary/viewallbeneficiary.component';
+import { AddnomineeComponent } from './addnominee/addnominee.component';
+import { ViewallnomineeComponent } from './viewallnominee/viewallnominee.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +41,11 @@ import { TransactionRecordsComponent } from './transaction-records/transaction-r
     TransactionsComponent,
     DepositComponent,
     FundTransferComponent,
-    TransactionRecordsComponent
+    TransactionRecordsComponent,
+    AddbeneficiaryComponent,
+    ViewallbeneficiaryComponent,
+    AddnomineeComponent,
+    ViewallnomineeComponent
   ],
   imports: [
     BrowserModule,

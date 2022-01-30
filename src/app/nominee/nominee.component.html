@@ -1,2 +1,13 @@
 
-<body><p>nominee works!</p></body>
+<body>
+    <mat-toolbar color="grey">
+        <span>NOMINEE</span>
+        <div class="spacer"></div>
+
+        <a mat-button routerLink="addnominee">ADD NOMINEE</a>
+        <a mat-button routerLink="viewallnominee">VIEW ALL NOMINEE</a>
+
+        <div><router-outlet></router-outlet></div>
+        
+    </mat-toolbar>
+</body>

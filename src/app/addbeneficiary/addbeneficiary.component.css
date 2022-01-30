@@ -1,0 +1,14 @@
+table{
+    border: 1px solid white;
+    
+ 
+ }
+ th{ border: 1px solid white;}
+ body{
+    background-image: linear-gradient(#000000c3,#000000c3),url(addbene.jfif);
+    width:100%;
+    height: 100%;
+    background-size: cover;
+    color: white;
+    padding: 75px;
+ }
